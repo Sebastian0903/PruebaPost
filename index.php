@@ -7,5 +7,9 @@
 </head>
 <body>
     <h1>PostgreSQL sí</h1>
+    <?php
+    include_once("conexion.php"); 
+    conexion::conectar();
+    ?>
 </body>
 </html>
